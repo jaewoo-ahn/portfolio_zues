@@ -11,7 +11,20 @@ const AboutPage = () => {
       animate={{ y: "0%" }}
       transition={{ duration: 1 }}
     >
-      About
+      {/* CMT container */}
+      <div>
+        {/* CMT text container */}
+        <div className="">
+          {/* CMT biography */}
+          <div className=""></div>
+          {/* CMT biography */}
+          <div className=""></div>
+          {/* CMT biography */}
+          <div className=""></div>
+        </div>
+        {/*CMT  SVG */}
+        <div className=""></div>
+      </div>
     </motion.div>
   );
 };
